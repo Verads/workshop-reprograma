@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background: url(../img/pexels-neosiam-557907.jpg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 15rem;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.banner__titulo {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.banner__subtitulo {
+    font-size: 2rem;
+}
+
+.btn {    
+    text-decoration: none;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn-branco {
+    color: beige;
+    border: 1px solid beige;
+    transition: ease 0.5s;
+}
+/* Sobre Container */
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.sobre__titulo {
+    font-size: 3rem;
+    color: #c4c4c4;
+    margin: 2rem;
+    text-align: center;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 40%;
+    line-height: 1.8;
+    display: inline-block;
+}
+
+.btn-roxo {
+    color: #9b4570;
+    text-align: left;
+    border: 1px solid #9b4570;
+}
+
+.sobre {
+    margin: 5em;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.redes-sociais__container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a { 
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 500;
+    color: #9b4570;
+    text-align: center;
+    font-weight: 500;
+    padding-top: .5rem;
+
+}
+
+.redes-sociais__github {
+    padding: 3rem 2.8rem;
+    border: 1px solid #9b4570;
+}
+
+.redes-sociais__github:hover {
+    background-color: #e7c9d8;
+}
+
+.redes-sociais__instagram {
+    padding: 3rem 3rem;
+    border: 1px solid #9b4570;
+}
+
+.redes-sociais__instagram:hover {
+    background-color: #e7c9d8;
+}
+
+.redes-sociais__linkedin {
+    padding: 3rem 2.5rem;
+    border: 1px solid #9b4570;
+}
+.redes-sociais__linkedin:hover {
+    background-color: #e7c9d8;
+}
+
+.redes-sociais__github-icone {
+    width: 80px;
+    height: 80px;
+}
+
+.redes-sociais__linkedin-icone {
+    width: 80px;
+    height: 80px;
+}
+
+.redes-sociais__instagram-icone {
+    width: 85px;
+    height: 85px;
+}
